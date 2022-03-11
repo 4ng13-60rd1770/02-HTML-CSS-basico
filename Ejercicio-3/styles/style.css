@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2? family= Amatic+SC & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Urbanist:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box
 }
 
 header{
@@ -22,6 +25,7 @@ header{
    display: flex;
    justify-content: center;
    align-items: center;
+   font-family: 'Urbanist', sans-serif;
 }
 
 .contenedor-titulo h1{
@@ -35,12 +39,15 @@ header{
 nav{
     position: fixed;
     width: 100%;
+   background-color: black;
 }
 
 nav ul{
     text-align: center;
     list-style: none;
-    margin-top: 25px;;
+    margin-top: 25px;
+    font-family: 'Amatic SC', cursive;
+
 }
 
 nav ul li{
@@ -61,7 +68,38 @@ nav ul li a:hover{
 
 }
 
-img{
-    width:50px;
+
+
+div.info{
+    font-family: 'Urbanist', sans-serif;
+    text-align:center;
+    background-color: coral;
 }
 
+p{
+    
+  text-align:justify;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+div.carac{
+    font-family: 'Urbanist', sans-serif;
+    text-align:center;
+    background-color: red;
+    color: #ffff;
+}
+
+ul{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+section.form{
+    font-family: 'Urbanist', sans-serif;
+    text-align:center;
+    background-color: coral;
+}
