@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./styles/contacto.css">
     <title>Contáctenos</title>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -15,12 +17,65 @@
             <li><a href="contacto.html">Contáctanos</a></li>
         </ul>
     </nav>
-    
-    <main>
-        <div class="content">
-            <h1>Página #2</h1>
-        </div>
+<main>
+   <p></p>
+   <br>
+   <br>
     </main>
-    
+    <div class="contact_form">
+
+        <div class="formulario">
+            <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+             <form>
+                <p>
+                    <label for="nombre" class="nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="telefono">Teléfono
+                    </label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="mensaje" class="mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" name="submit" id="enviar">
+                    <p>Enviar</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
 </body>
+<footer>
+    <article>&copy Vulcano <b>Todos los derechos reservados</b></article>
+</footer>
+
 </html>
